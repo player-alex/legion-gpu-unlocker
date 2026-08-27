@@ -17,3 +17,6 @@ Thumbs.db
 .idea/
 *.iml
 .vscode/
+
+# --- local dev notes / scratch (not part of the module, not committed) ---
+.dev/
