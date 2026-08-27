@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.laelaps.legiongpuunlocker"
+    android:versionCode="3"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="30"
+        android:targetSdkVersion="36" />
+
+    <!-- Modern libXposed (API 101) module: registration is via META-INF/xposed/
+         (module.prop + java_init.list + scope.list); no legacy meta-data. -->
+    <application
+        android:label="Legion GPU Unlocker"
+        android:hasCode="true" />
+
+</manifest>

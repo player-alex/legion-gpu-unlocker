@@ -1,0 +1,19 @@
+# --- signing keys (never commit) ---
+release.keystore
+*.keystore
+*.jks
+
+# --- build output / intermediates ---
+build/
+*.apk
+*.apk.idsig
+*.ap_
+*.dex
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+*.iml
+.vscode/
